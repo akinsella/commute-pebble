@@ -1,0 +1,46 @@
+{
+  "uuid": "306c5309-1cfe-4ae1-a245-eafb4b1a754e",
+  "shortName": "Commute",
+  "longName": "Commute Pebble",
+  "companyName": "Helyx.io",
+  "versionCode": 1,
+  "versionLabel": "0.1",
+  "capabilities": [
+    "configurable",
+    "location"
+  ],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_LOGO_SPLASH",
+        "file": "images/logo_splash.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_TILE_SPLASH",
+        "file": "images/tile_splash.png"
+      },
+      {
+        "type": "font",
+        "name": "MONO_FONT_14",
+        "file": "fonts/UbuntuMono-Regular.ttf"
+      }
+    ]
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ],
+  "sdkVersion": "3"
+}
